@@ -66,10 +66,13 @@ class MainPage extends Component {
                                     <Card sx={{ maxWidth: 345 }}>
                                         <CardActionArea>
                                             <CardMedia
-
+                                               component="img"
+                                               height="140"
+                                               image="https://pngtree.com/so/rhombus-shape"
+                                               alt="green iguana"
                                             />
                                             <CardContent>
-                                                <Typography gutterBottom variant="h5" component="div">
+                                                <Typography gutterBottom variant="h5" style={{textAlign:'center'}} component="div">
                                                     Summer Splash
                                                 </Typography>
                                                 <Typography variant="body2" color="text.secondary">
@@ -87,8 +90,8 @@ class MainPage extends Component {
 
                                             />
                                             <CardContent>
-                                                <Typography gutterBottom variant="h5" component="div">
-                                                    
+                                                <Typography gutterBottom variant="h5" style={{textAlign:'center'}} component="div">
+                                                    Winter Bloom
                                                 </Typography>
                                                 <Typography variant="body2" color="text.secondary">
                                                     Lizards are a widespread group of squamate reptiles, with over 6,000
@@ -105,8 +108,8 @@ class MainPage extends Component {
 
                                             />
                                             <CardContent>
-                                                <Typography gutterBottom variant="h5" component="div">
-                                                    Lizard
+                                                <Typography gutterBottom variant="h5" style={{textAlign:'center'}} component="div">
+                                                    Birthday Flowers
                                                 </Typography>
                                                 <Typography variant="body2" color="text.secondary">
                                                     Lizards are a widespread group of squamate reptiles, with over 6,000
