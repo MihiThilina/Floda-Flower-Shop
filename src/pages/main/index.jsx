@@ -17,6 +17,8 @@ import birthdayFlower3 from '../../assest/images/Birthdayflower3.jpg';
 import birthdayFlower4 from '../../assest/images/Birthdayflower4.jpg';
 import birthdayFlower5 from '../../assest/images/Birthdayflower5.jpg';
 import birthdayFlower6 from '../../assest/images/Birthdayflower6.jpg';
+import birthdayFlower7 from '../../assest/images/Birthdayflower7.jpg';
+import birthdayFlower8 from '../../assest/images/Birthdayflower8.jpg';
 import leafpng from '../../assest/images/leaves.png';
 
 
@@ -72,16 +74,16 @@ class MainPage extends Component {
                         <section className='about-section'>
                             <div className='card-section'>
                                 <div className='cards'>
-                                    <Card sx={{ maxWidth: 345 }}>
+                                    <Card sx={{ maxWidth: 345 }} className='card'>
                                         <CardActionArea>
                                             <div className='leaf-box-art' style={{ textAlign: 'center' }}>
                                             <img src={leafpng} alt="" />
                                             </div>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
-                                                    Summer Splash
+                                                  <b>Summer Splash</b>  
                                                 </Typography>
-                                                <Typography variant="body2" color="text.secondary">
+                                                <Typography style={{textAlign:'center'}} variant="body2" color="text.secondary">
                                                     Lizards are a widespread group of squamate reptiles, with over 6,000
                                                     species, ranging across all continents except Antarctica
                                                 </Typography>
@@ -90,16 +92,16 @@ class MainPage extends Component {
                                     </Card>
                                 </div>
                                 <div className='cards'>
-                                    <Card sx={{ maxWidth: 345 }}>
+                                    <Card sx={{ maxWidth: 345 }} className='card'>
                                         <CardActionArea>
                                             <div className='leaf-box-art' style={{ textAlign: 'center' }}>
                                             <img src={leafpng} alt="" />
                                             </div>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
-                                                    Winter Bloom
+                                                  <b>Winter Bloom</b>  
                                                 </Typography>
-                                                <Typography variant="body2" color="text.secondary">
+                                                <Typography style={{textAlign:'center'}} variant="body2" color="text.secondary">
                                                     Lizards are a widespread group of squamate reptiles, with over 6,000
                                                     species, ranging across all continents except Antarctica
                                                 </Typography>
@@ -108,16 +110,16 @@ class MainPage extends Component {
                                     </Card>
                                 </div>
                                 <div className='cards'>
-                                    <Card sx={{ maxWidth: 345 }}>
+                                    <Card sx={{ maxWidth: 345 }} className='card'>
                                         <CardActionArea>
                                             <div className='leaf-box-art' style={{ textAlign: 'center' }}>
                                             <img src={leafpng} alt="" />
                                             </div>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
-                                                    Birthday Flowers
+                                                  <b>Birthday Flowers</b>  
                                                 </Typography>
-                                                <Typography variant="body2" color="text.secondary">
+                                                <Typography style={{textAlign:'center'}} variant="body2" color="text.secondary">
                                                     Lizards are a widespread group of squamate reptiles, with over 6,000
                                                     species, ranging across all continents except Antarctica
                                                 </Typography>
@@ -180,6 +182,16 @@ class MainPage extends Component {
                                     {/* <!-- 6 --> */}
                                     <a href="" class="flower-box app">
                                         <img src={birthdayFlower6} alt="" />
+
+                                    </a>
+                                     {/* <!-- 6 --> */}
+                                     <a href="" class="flower-box app">
+                                        <img src={birthdayFlower7} alt="" />
+
+                                    </a>
+                                     {/* <!-- 6 --> */}
+                                     <a href="" class="flower-box app">
+                                        <img src={birthdayFlower8} alt="" />
 
                                     </a>
 
