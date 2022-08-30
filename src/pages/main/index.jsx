@@ -11,6 +11,13 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
 import mainImage from '../../assest/images/mainImage.png';
+import birthdayFlower from '../../assest/images/Birthdayflower1.jpg';
+import birthdayFlower2 from '../../assest/images/Birthdayflower2.jpg';
+import birthdayFlower3 from '../../assest/images/Birthdayflower3.jpg';
+import birthdayFlower4 from '../../assest/images/Birthdayflower4.jpg';
+import birthdayFlower5 from '../../assest/images/Birthdayflower5.jpg';
+import birthdayFlower6 from '../../assest/images/Birthdayflower6.jpg';
+
 
 
 class MainPage extends Component {
@@ -66,13 +73,13 @@ class MainPage extends Component {
                                     <Card sx={{ maxWidth: 345 }}>
                                         <CardActionArea>
                                             <CardMedia
-                                               component="img"
-                                               height="140"
-                                               image="https://pngtree.com/so/rhombus-shape"
-                                               alt="green iguana"
+                                                component="img"
+                                                height="140"
+                                                image="https://pngtree.com/so/rhombus-shape"
+                                                alt="green iguana"
                                             />
                                             <CardContent>
-                                                <Typography gutterBottom variant="h5" style={{textAlign:'center'}} component="div">
+                                                <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
                                                     Summer Splash
                                                 </Typography>
                                                 <Typography variant="body2" color="text.secondary">
@@ -90,7 +97,7 @@ class MainPage extends Component {
 
                                             />
                                             <CardContent>
-                                                <Typography gutterBottom variant="h5" style={{textAlign:'center'}} component="div">
+                                                <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
                                                     Winter Bloom
                                                 </Typography>
                                                 <Typography variant="body2" color="text.secondary">
@@ -108,7 +115,7 @@ class MainPage extends Component {
 
                                             />
                                             <CardContent>
-                                                <Typography gutterBottom variant="h5" style={{textAlign:'center'}} component="div">
+                                                <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
                                                     Birthday Flowers
                                                 </Typography>
                                                 <Typography variant="body2" color="text.secondary">
@@ -123,10 +130,73 @@ class MainPage extends Component {
 
                         </section>
 
+                        {/* -------------------------------------------------------- */}
+
+                        <section className='third-Section'>
+
+                            <section id="Flowers-Section">
+                                <div class="Flower-heading">
+                                    <h3>Give Someone a nice <br /> <span className='secondTopic'>flower today.</span> </h3>
+                                </div>
+
+                                <ul class="flower-filter">
+                                    <li class="list flower-filter-active" data-filter="all">Birthday Flowers</li>
+                                    <li class="list" data-filter="app">Flower Bouquet</li>
+                                    <li class="list" data-filter="desing">Winter Blood</li>
+                                    <li class="list" data-filter="web">Summer Splash</li>
+                                </ul>
+                                {/* <!-- container --> */}
+                                <div class="flower-container">
+
+
+                                    <a href="" class="flower-box app">
+                                        <img src={birthdayFlower} alt="" />
+
+                                    </a>
+
+
+                                    <a href="" class="flower-box web">
+                                        <img src={birthdayFlower2} alt="" />
+
+                                    </a>
+
+
+                                    <a href="" class="flower-box ai">
+                                        <img src={birthdayFlower3} alt="" />
+
+                                    </a>
+
+
+                                    <a href="" class="flower-box desing">
+                                        <img src={birthdayFlower4} alt="" />
+
+                                    </a>
+
+
+                                    <a href="" class="flower-box desing">
+                                        <img src={birthdayFlower5} alt="" />
+
+                                    </a>
+
+                                    {/* <!-- 6 --> */}
+                                    <a href="" class="flower-box app">
+                                        <img src={birthdayFlower6} alt="" />
+
+                                    </a>
+
+
+                                </div>
+
+                            </section>
+
+                        </section>
+
                     </main>
                 </body>
-
+                <script></script>
             </>
+
+
 
         )
 
