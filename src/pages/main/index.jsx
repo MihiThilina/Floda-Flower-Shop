@@ -17,6 +17,7 @@ import birthdayFlower3 from '../../assest/images/Birthdayflower3.jpg';
 import birthdayFlower4 from '../../assest/images/Birthdayflower4.jpg';
 import birthdayFlower5 from '../../assest/images/Birthdayflower5.jpg';
 import birthdayFlower6 from '../../assest/images/Birthdayflower6.jpg';
+import leafpng from '../../assest/images/leaves.png';
 
 
 
@@ -37,18 +38,19 @@ class MainPage extends Component {
 
                     <header>
                         <Box sx={{ flexGrow: 1 }}>
-                            <AppBar position="static">
+                            <AppBar position="static" style={{ backgroundColor: "rgba(255,241,241,255)" }}>
                                 <Toolbar>
-                                    <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                                        FloweSHOP
+                                    <Typography style={{ color: 'black' }} variant="h5" component="div" sx={{ flexGrow: 1 }}>
+                                        <b>Flower</b><span style={{ color: 'red' }}>SHOP</span>
                                     </Typography>
-                                    <h5>Home</h5>
-                                    <h5>About</h5>
-                                    <h5>Service</h5>
-                                    <h5>Gallery</h5>
-                                    <h5>Shop</h5>
-                                    <h5>Countct Us</h5>
-                                    <Button color="inherit">Login</Button>
+                                    <ul class="nav-link">
+                                        <li><a href="#Home">Home</a></li>
+                                        <li><a href="#About">About</a></li>
+                                        <li><a href="#Service">Service</a></li>
+                                        <li><a href="#Gallery">Gallery</a></li>
+                                        <li><a href="#Shop">Shop</a></li>
+                                        <li><a href="#Countct Us">Countct Us</a></li>
+                                    </ul>
                                 </Toolbar>
                             </AppBar>
                         </Box>
@@ -58,7 +60,7 @@ class MainPage extends Component {
                         {/* hero section */}
                         <section className='hero_section' >
                             <img src={mainImage} alt="" />
-                            <h5>Welcome to Flower<span>shop</span></h5>
+                            <h5>Welcome to Flower<span style={{ color: 'red' }}>shop</span></h5>
                             <h1>The Florist to fullfill <br />
                                 your needs
                             </h1>
@@ -72,12 +74,9 @@ class MainPage extends Component {
                                 <div className='cards'>
                                     <Card sx={{ maxWidth: 345 }}>
                                         <CardActionArea>
-                                            <CardMedia
-                                                component="img"
-                                                height="140"
-                                                image="https://pngtree.com/so/rhombus-shape"
-                                                alt="green iguana"
-                                            />
+                                            <div className='leaf-box-art' style={{ textAlign: 'center' }}>
+                                            <img src={leafpng} alt="" />
+                                            </div>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
                                                     Summer Splash
@@ -93,9 +92,9 @@ class MainPage extends Component {
                                 <div className='cards'>
                                     <Card sx={{ maxWidth: 345 }}>
                                         <CardActionArea>
-                                            <CardMedia
-
-                                            />
+                                            <div className='leaf-box-art' style={{ textAlign: 'center' }}>
+                                            <img src={leafpng} alt="" />
+                                            </div>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
                                                     Winter Bloom
@@ -111,9 +110,9 @@ class MainPage extends Component {
                                 <div className='cards'>
                                     <Card sx={{ maxWidth: 345 }}>
                                         <CardActionArea>
-                                            <CardMedia
-
-                                            />
+                                            <div className='leaf-box-art' style={{ textAlign: 'center' }}>
+                                            <img src={leafpng} alt="" />
+                                            </div>
                                             <CardContent>
                                                 <Typography gutterBottom variant="h5" style={{ textAlign: 'center' }} component="div">
                                                     Birthday Flowers

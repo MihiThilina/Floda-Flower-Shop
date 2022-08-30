@@ -13,60 +13,93 @@ ul{
 }
 
 
+/* nav Bar */
+
+.nav-link {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 13px 0;
+}
+
+.nav-link li {
+    font-family: 'Rasa', serif;
+    list-style: none;
+    margin: 20px 20px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+
 /* Hero Section */
 
 .hero_section{
     background-color: rgba(255,241,241,255);
     position: absolute;
     top: 65px;
-    height: 80vh;
+    height: 91vh;
     width: 100%;
 }
 
 .hero_section h5{
     position: absolute;
-    left: 300px;
-    top: 100px;
+    left: 220px;
+    top: 140px;
     font-size: 20px;
 }
 
 .hero_section h1{
     position: absolute;
-    left: 300px;
-    top: 130px;
+    left: 220px;
+    top: 180px;
     font-size: 4pc;
 }
 
 .hero_section p{
     position: absolute;
-    left: 300px;
-    top: 300px;
+    left: 220px;
+    top: 350px;
     width: 50vw;
+    font-size: 14px;
     letter-spacing: 1px;
     text-align: justify;
 }
 
 .hero_section button{
     position: absolute;
-    top: 440px;
-    left: 300px;
+    top: 480px;
+    left: 220px;
     width: 10vw;
     height: 6vh;
+    border: none;
+    background-color: red;
+    color: white;
 }
 
 .hero_section img{
     position: relative;
     left: 1000px;
     bottom: 95px;
-    width: 32%;
+    width: 34%;
+    height: 114%;
+    
 }
+
+
+
+
 
 
 /* --------------------------------- */
 
 .about-section{
     position: absolute;
-    top: 640px;
+    top: 720px;
     border: 1px solid red;
     width: 100%;
     height: 80vh;
@@ -87,16 +120,18 @@ ul{
     border: 1px solid rebeccapurple;
     width: 30%;
     margin: 20px;
-    height: 40vh;
+    height: 44vh;
 }
-
+.leaf-box-art img{
+   width: 10vw;
+}
 
 
 /* --------------third-Section */
 
 .third-Section{
     position: absolute;
-    top: 1216px;
+    top: 179.8%;
     border: 1px solid red;
     width: 100%;
     /* height: 100v; */
@@ -126,7 +161,7 @@ ul{
     color: #222;
 }
 .secondTopic{
-    
+
     font-size: 2.7rem;
     border: 1px solid red;
     font-weight: 600;
