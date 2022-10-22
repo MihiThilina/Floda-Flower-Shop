@@ -22,9 +22,14 @@ ul {
     margin: 13px 0;
 }
 
+.nav-link:hover{
+    cursor: pointer;
+}
+
 .nav-link li {
     font-family: 'Rasa', serif;
     list-style: none;
+    cursor: pointer;
     margin: 20px 20px;
 }
 
@@ -32,7 +37,12 @@ ul {
     text-decoration: none;
     color: black;
     font-size: 16px;
+    cursor: pointer;
     letter-spacing: 1px;
+}
+
+.nav-link li:hover{
+    cursor: pointer;
 }
 
 
@@ -77,9 +87,16 @@ ul {
     width: 10vw;
     height: 6vh;
     border: none;
+    cursor: pointer;
     background-color: red;
     color: white;
 }
+.hero_section button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
 
 .hero_section img {
     position: relative;
@@ -353,3 +370,6 @@ ul {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
+
+
+/* ---------------------------------------------------------------- */

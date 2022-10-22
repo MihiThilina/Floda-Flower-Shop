@@ -246,7 +246,7 @@ class MainPage extends Component {
                                 <h2 style={{ textAlign: 'center' }}>Kathee</h2>
                                 <h5 style={{ textAlign: 'center' }}>Cutomer</h5>
                                 <p style={{ textAlign: 'center' }}>
-                                    Lizards are a widespread group of squamate reptiles, <br /> with over 6,000
+                                    Lizards are a widespread group of squamate reptiles, <br />   with over 6,000
                                     species, ranging across all continents except Antarctica
                                 </p>
                             </div>
