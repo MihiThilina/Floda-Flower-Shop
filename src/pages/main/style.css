@@ -567,7 +567,7 @@ ul {
     }
     
     .services {
-        border: 1px solid red;
+       
         width: 100%;
         height: 57%;
         position: absolute;
@@ -577,23 +577,19 @@ ul {
     }
     
     .services div {
-        position: relative;
-        width: 20vw;
-        height: 17vh;
-        margin: 20px;
-        padding: 30px;
-      
+        width: 24vw;
     }
     
     .maintopic{
         position: relative;
         left: 80px;
+        border: 1px solid red;
     }
     .drescription{
         position: relative;
         left: 80px;
         top: 10px;
-        font-size: 13px;
+        font-size: 10px;
         color: #9b9b9b;
     }
     .maintopic2{
@@ -642,7 +638,7 @@ ul {
     
     .Contact-Us-Section{
         position: absolute;
-        top: 824%;
+        top: 574%;
         width: 100%;
         height: 40vh;
     
@@ -660,18 +656,21 @@ ul {
     .contect h2{
         position: relative;
         top:100px;
+        font-size: 20px;
     }
     .contect h5{
         position: relative;
         top:110px;
+        font-size: 15px;
     }
     .contect p{
         position: relative;
         top:130px;
-        font-size: 14px;
+        width: 80%;
+        left: 40px;
+        font-size: 10px;
         letter-spacing: 1px;
-        text-align: justify;
-       
+        text-align: center;
     }
     
     
@@ -680,7 +679,7 @@ ul {
       width: 130px;
       background-color: #bbb;
       position: absolute;
-      right: 45.8%;
+      right: 33%;
       top: -50px;
       border-radius: 50%;
       display: inline-block;
