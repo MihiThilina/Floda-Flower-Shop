@@ -373,3 +373,331 @@ ul {
 
 
 /* ---------------------------------------------------------------- */
+
+@media all  and (min-width:  300px) and (max-width: 800px)  {
+
+    header{
+        width: 100%;
+    }
+    .nav-link {
+        display: none;
+    }
+    
+    /* Hero Section */
+    
+    .hero_section {
+        top: 50px;
+    }
+    
+    .hero_section h5 {
+        position: absolute;
+        left: 50px;
+        top: 100px;
+        font-size: 20px;
+    }
+    
+    .hero_section h1 {
+        position: absolute;
+        left: 52px;
+        top: 140px;
+        font-size: 1.8pc;
+    }
+    
+    .hero_section p {
+        position: absolute;
+        left: 52px;
+        top: 220px;
+        width: 80vw;
+        font-size: 10px;
+        letter-spacing: 2px;
+        text-align: left;
+    }
+    
+    .hero_section button {
+        position: absolute;
+        top: 370px;
+        left: 52px;
+        width: 40vw;
+        height: 6vh;
+    }
+    .hero_section button:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: 0.5s;
+    }
+    
+    
+    .hero_section img {
+        position: relative;
+        left: 100px;
+        bottom: 30px;
+        width: 110%;
+        height:104%;
+    }
+    
+    
+    
+    
+    
+    
+    /* --------------------------------- */
+    
+    .about-section {
+        position: absolute;
+        top: 720px;
+        width: 100%;
+        height: 70vh;
+    }
+    
+    .card-section {
+        display: flex;
+        width: 72%;
+        height: 50vh;
+        margin: auto;
+        padding: 0;
+        position: relative;
+        top: 100px;
+    }
+    
+    .cards {
+        width: 30%;
+        margin: 20px;
+        height: 44vh;
+    }
+    
+    .card :hover {
+        background-color: rgba(255, 241, 241, 255);
+    }
+    
+    .leaf-box-art img {
+        width: 10vw;
+    }
+    
+    
+    /* --------------third-Section */
+    
+    .third-Section {
+        position: absolute;
+        top: 169.6%;
+        /* border: 1px solid red; */
+        width: 100%;
+        /* height: 100v; */
+    }
+    
+    #Flowers-Section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 50px 0px;
+    }
+    
+    .Flower-heading {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Flower-heading h3 {
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: #222;
+    }
+    
+    .secondTopic {
+        font-size: 2.7rem;
+        font-weight: 600;
+        color: #222;
+        position: relative;
+        left: 70px;
+    }
+    
+    
+    
+    .flower-filter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(237, 237, 237, 0.6);
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    
+    .flower-filter li {
+        margin: 10px;
+        padding: 5px 20px;
+        color: #9b9b9b;
+        font-size: 1rem;
+        letter-spacing: 0.5px;
+        font-weight: 400;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .flower-filter-active {
+        background-color: #f0f0f0;
+        color: #272727;
+    }
+    
+    /* ----------------------------- */
+    
+    .flower-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 1300px;
+        margin: auto;
+    }
+    
+    .flower-box {
+        height: 280px;
+        padding: 10px;
+        border: 1px solid #eeeeee;
+        margin: 19px;
+    }
+    
+    .flower-box img {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    
+    /* --------------------------service-section------------------------- */
+    
+    
+    .service-section {
+    
+        position: absolute;
+        top: 293.9%;
+        width: 100%;
+        height: 30vh;
+    }
+    
+    .services {
+        
+        width: 100%;
+        height: 57%;
+        position: absolute;
+        display: flex;
+        top: 60px;
+        justify-content: center;
+    }
+    
+    .services div {
+        position: relative;
+        width: 20vw;
+        height: 17vh;
+        margin: 20px;
+        padding: 30px;
+      
+    }
+    
+    .maintopic{
+        position: relative;
+        left: 80px;
+    }
+    .drescription{
+        position: relative;
+        left: 80px;
+        top: 10px;
+        font-size: 13px;
+        color: #9b9b9b;
+    }
+    .maintopic2{
+        position: relative;
+        left: 80px;
+        top: -20px;
+    }
+    .drescription2{
+        position: relative;
+        left: 80px;
+        top:-10px;
+        font-size: 13px;
+        color: #9b9b9b;
+    }
+    .maintopic3{
+        position: relative;
+        left: 80px;
+        top: -20px;
+    }
+    .drescription3{
+        position: relative;
+        left: 80px;
+        top:-10px;
+        font-size: 13px;
+        color: #9b9b9b;
+    }
+    
+    
+    
+    .image-services {
+       
+        position: absolute;
+        left: 10px;
+        width: 6vw;
+        height: 11vh;
+    }
+    
+    .image-services img{
+        position: relative;
+        left: 10px;
+        top: -20px;
+    }
+    
+    /* -----------------------------Contact-Us-Section */
+    
+    
+    .Contact-Us-Section{
+        position: absolute;
+        top: 324%;
+        width: 100%;
+        height: 40vh;
+    
+    }
+    
+    .contect{
+        width: 100%;
+        height: 40vh;
+        background-color: rgba(255, 241, 241, 255);
+        position: absolute;
+        top: 100px;
+    }
+    
+    
+    .contect h2{
+        position: relative;
+        top:100px;
+    }
+    .contect h5{
+        position: relative;
+        top:110px;
+    }
+    .contect p{
+        position: relative;
+        top:130px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: justify;
+       
+    }
+    
+    
+    .cireles{
+      height: 130px;
+      width: 130px;
+      background-color: #bbb;
+      position: absolute;
+      right: 45.8%;
+      top: -50px;
+      border-radius: 50%;
+      display: inline-block;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+    
+   
+}
